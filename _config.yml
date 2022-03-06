@@ -1,12 +1,18 @@
-title: Jekyll Serial Programmer
-markdown: kramdown
-url: ""
-baseurl: "/jekyll-theme-serial-programmer"
+title: Blog
+lsi: false
+safe: true
+source: https://github.com/jergro/jergro.github.io
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Jeremi Grosz
 
 plugins:
   - jemoji
